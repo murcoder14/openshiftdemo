@@ -10,7 +10,7 @@ public class SampleController {
 
     @RequestMapping("/")
     String home() {
-        return "Welcome to REDHAT OPENSHIFT!";
+        return "HELLO, WELCOME TO REDHAT OPENSHIFT!";
     }
 
     public static void main(String[] args) {
