@@ -10,7 +10,8 @@ public class SampleController {
 
     @RequestMapping("/")
     String home() {
-        return "HELLO, WELCOME TO REDHAT OPENSHIFT!";
+        String currentDtTm = java.time.LocalDateTime.now().toString();
+        return "HI, WELCOME TO REDHAT OPENSHIFT! " + currentDtTm;
     }
 
     public static void main(String[] args) {
